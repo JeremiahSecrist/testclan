@@ -23,7 +23,7 @@
       imports = [ inputs.clan-core.flakeModules.default ];
       # https://docs.clan.lol/getting-started/flake-parts/
       clan = {
-        meta.name = "skys"; # Ensure this is unique among all clans you want to use.
+        meta.name = "testclan"; # Ensure this is unique among all clans you want to use.
 
         # Make flake available in modules
         specialArgs.self = {
